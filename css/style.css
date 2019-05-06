@@ -3,6 +3,9 @@ body {
     padding-top: 200px;
    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
 }
+#body{
+    width:100%;
+}
 
 .navbar-brand {
     color: white;	
@@ -11,4 +14,13 @@ body {
 footer {
     padding-top: 100px;
     margin: 50px 0;
+}
+#modal{
+    height:80vh;
+    width:80vw;
+    top:10vh;
+    left:10vw;
+    position:fixed;
+    background-color:rgb(100, 100, 100);
+    z-index:2;
 }
